@@ -4,9 +4,9 @@
   "description": "Esse projeto tem como objetivo principal ser uma página para recebimento de dinheiro ao invés de presentes de casamento convencionais",
   "main": "index.js",
   "scripts": {
-    "run": "next run",
-    "build": "next build",
+    "start": "next start",
     "dev": "next dev",
+    "build": "next build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
