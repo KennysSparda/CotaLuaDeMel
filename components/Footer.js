@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-        <span>Copyright &copy; | Swygax </span>
+        <span>&copy; <strong>Swygax</strong> and <strong>Sky</strong></span>
     </footer>
   )
 }

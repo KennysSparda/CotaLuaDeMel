@@ -1,45 +1,37 @@
-import Galery from '../components/Galery'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
-import Text from '../components/Text'
+import Container from '../components/Container'
 import Picture from '../components/Picture'
+import Button from '../components/Button'
+import Divisor from '../components/Divisor'
 
 export default function App() {
   return (
     <div>
       <header>
-        <Banner>
-          <h1>Cota para Lua de Mel</h1>
-          <h1>Cesiane e Mayke</h1>
-        </Banner>
+        <Banner/>
+        <Divisor type="bottom"/>
+        <Picture source="image/Logo.png"/>
       </header>
-      <Galery>
-        <Picture source="image/4.jpeg" description="Imagem dos noivos" />
-        <Picture source="image/5.jpeg" description="Imagem dos noivos" />
-      </Galery>
-      <Text>"Daqui a vinte anos, você não terá arrependimento das coisas que fez, mas das que deixou de fazer. Por isso veleje longe do seu porto seguro. Pegue os ventos. Explore. Sonhe. Descubra." (Mark Twain)</Text>
-      <Galery>
-        <Picture source="image/1.jpeg" description="Imagem dos noivos" />
-        <Picture source="image/3.jpeg" description="Imagem dos noivos" />
-      </Galery>
-      <Galery>
-        <Picture source="image/6.jpeg" description="Imagem dos noivos" />
-        <Picture source="image/7.jpeg" description="Imagem dos noivos" />
-      </Galery>
-      <Galery>
-        <Picture source="image/8.jpeg" description="Imagem dos noivos" />
-        <Picture source="image/9.jpeg" description="Imagem dos noivos" />
-      </Galery>
-      <Galery>
-        <Picture source="image/10.jpeg" description="Imagem dos noivos" />
-        <Picture source="image/11.jpeg" description="Imagem dos noivos" />
-      </Galery>
-      <Galery>
-        <Picture source="image/12.jpeg" description="Imagem dos noivos" />
-        <Picture source="image/13.jpeg" description="Imagem dos noivos" />
-        <Picture source="image/14.jpeg" description="Imagem dos noivos" />
-        <Picture source="image/15.jpeg" description="Imagem dos noivos" />
-      </Galery>
+      <Divisor type="top"/> 
+      <h1>Cota para Lua de Mel</h1>
+      <Divisor type="bottom"/>
+      <Picture source="image/colagem1.png" description="Imagem dos noivos"/>
+      <Divisor type="top"/>
+      <Container back="back1">
+        <p className>"Daqui a vinte anos, você não terá arrependimento das coisas que fez, mas das que deixou de fazer. Por isso veleje longe do seu porto seguro. Pegue os ventos. Explore. Sonhe. Descubra." (Mark Twain)</p>
+      </Container>
+      <Divisor type="bottom"/>
+      <Picture source="image/colagem2.png" description="Imagem dos noivos" />
+      <Divisor type="top"/>
+      <Container back="back2">
+        <p>Nós já vivemos juntos há algum tempo. Não precisamos de nada novo no momento. Mas se tiver a intenção de nos presentear pode nos mandar em dinheiro o valor que iria investir em um presente.</p>
+      </Container>
+      <Divisor type="bottom"/>
+      <Button>PIX</Button>
+      <Divisor type="top"/>
+      <Picture source="image/colagem3.png" description="Imagem dos noivos" />
+      <Divisor type="bottom"/>
       <Footer/>
     </div>
   )

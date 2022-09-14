@@ -1,8 +1,5 @@
-export default function Banner(props) {
+export default function Banner() {
   return (
-    <div>
-      {props.children}
       <div id='banner'></div>
-    </div>
   )
 }
