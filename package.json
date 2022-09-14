@@ -1,0 +1,27 @@
+{
+  "name": "cotaluademel",
+  "version": "0.0.1",
+  "description": "Esse projeto tem como objetivo principal ser uma página para recebimento de dinheiro ao invés de presentes de casamento convencionais",
+  "main": "index.js",
+  "scripts": {
+    "run": "next run",
+    "build": "next build",
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennysSparda/CotaLuaDeMel.git"
+  },
+  "author": "Kenny Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KennysSparda/CotaLuaDeMel/issues"
+  },
+  "homepage": "https://github.com/KennysSparda/CotaLuaDeMel#readme",
+  "dependencies": {
+    "next": "^12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

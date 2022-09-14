@@ -1,0 +1,14 @@
+#galery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galery-itens {
+  object-fit:cover;
+}
+
+.galery-itens:hover {
+  transform: scale(1.4);
+  height: 100%;
+  width: 100%;
+}

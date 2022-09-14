@@ -1,0 +1,13 @@
+#text {
+  height: var(--height);
+  width: 90%;
+  background: var(--back);
+  color: var(--primary);
+  margin: 10px auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 20px;
+}

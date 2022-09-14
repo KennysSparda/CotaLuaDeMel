@@ -1,0 +1,9 @@
+body {
+  /* font-size: 32px; */
+  font-family: 'Courgette', cursive;
+  font-size: 24px;
+  text-align: center;
+  background: var(--primary);
+  color: var(--secondary);
+  margin: 0px;
+}
