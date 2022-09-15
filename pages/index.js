@@ -2,6 +2,7 @@ import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import Container from '../components/Container'
 import Picture from '../components/Picture'
+import MiniPicture from '../components/MiniPicture'
 import Button from '../components/Button'
 import Divisor from '../components/Divisor'
 
@@ -30,7 +31,10 @@ export default function App() {
       <Divisor type="bottom"/>
       <Button>PIX</Button>
       <Divisor type="top"/>
-      <Picture source="image/colagem3.png" description="Imagem dos noivos" />
+      <MiniPicture source="image/7.jpeg" description="Imagem dos noivos" />
+      <MiniPicture source="image/13.jpg" description="Imagem dos noivos" />
+      <MiniPicture source="image/6.jpg" description="Imagem dos noivos" />
+      <MiniPicture source="image/14.jpg" description="Imagem dos noivos" />
       <Divisor type="bottom"/>
       <Footer/>
     </div>

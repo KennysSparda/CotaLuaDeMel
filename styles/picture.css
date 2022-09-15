@@ -5,6 +5,19 @@
   flex-grow: 1;
 }
 
+#mini-picture {
+  height: 40%;
+  width: 40%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px var(--shadow);
+  margin: 10px 10px auto;
+  flex-grow: 1;
+}
+
+#mini-picture:hover {
+  transform: scale(1.4);
+}
+
 #divisor {
   margin: 10px;
   width: 80%;
