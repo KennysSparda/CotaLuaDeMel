@@ -12,6 +12,72 @@
 }
 
 .pix-button:hover {
-  border: 1px solid var(--primary);
+  background: var(--secondary);
+  box-shadow: 0 0 10px var(--shadow);
+}
+
+.pix-button-expanded {
+  color: var(--primary);
+  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary), var(--primary));
+  font-weight: 700;
+  font-size: 18px;
+  height: 350px;
+  width: 100%;
+  border: solid 3px var(--primary);
+  border-radius: 50px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+}
+
+a {
+  color: var(--primary);
+  /* text-decoration: none; */
+}
+
+#btnCopy {
+  color: var(--secondary);
+  background: var(--primary);
+  margin: 10px;
+  border-radius: 20px;
+}
+
+#btnCopy:hover {
+  color: var(--primary);
+  background: var(--secondary);
+}
+
+#ico {
+  height: 10px;
+  width: 10px;
+}
+
+#key{
+  margin: 0px auto;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary), var(--primary));
   box-shadow: 0 0 5px var(--shadow);
+  width: 300px;
+}
+
+#key:hover {
+  background: var(--back);
+}
+
+#link-number {
+  margin: 0px auto;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary), var(--primary));
+  box-shadow: 0 0 5px var(--shadow);
+  width: 100px;
+}
+
+#link-number:hover {
+  background: var(--back);
+}
+
+.obs {
+  border: dotted 2px var(--primary);
+  border-radius: 50px;
+  width: 80%;
+  margin: 10px auto;
 }
