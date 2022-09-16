@@ -1,3 +1,9 @@
+#main-container {
+  background: var(--secondary);
+  padding: 30px;
+  box-shadow: 0 0 10px var(--shadow);
+}
+
 #container {
   text-shadow: 0 0 5px var(--shadow);
   height: 100%;
@@ -9,7 +15,7 @@
 }
 
 #back1 {
-  background: rgba(0, 0, 0, 0.2) url('../public/image/1.jpeg') no-repeat;
+  background: rgba(0, 0, 0, 0.3) url('../public/image/1.jpeg') no-repeat;
   background-position: 42% 50%;
   background-size: cover;
   border-radius: 20px;
@@ -17,8 +23,15 @@
 }
 
 #back2 {
-  background: url('../public/image/11.jpeg') no-repeat;
+  background: rgba(0, 0, 0, 0.2) url('../public/image/11.jpeg') no-repeat;
   background-position: 53% 0%;
   background-size: cover;
   border-radius: 20px;
+  background-blend-mode: darken;
+}
+
+@media screen and (max-width: 1300px) {
+  #main-container {
+    box-shadow: none;
+  }
 }
