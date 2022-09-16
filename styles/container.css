@@ -23,15 +23,18 @@
 }
 
 #back2 {
-  background: rgba(0, 0, 0, 0.2) url('../public/image/11.jpeg') no-repeat;
+  background: rgba(0, 0, 0, 0.3) url('../public/image/11.jpeg') no-repeat;
   background-position: 53% 0%;
   background-size: cover;
   border-radius: 20px;
   background-blend-mode: darken;
 }
-
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 800px) {
   #main-container {
     box-shadow: none;
+  }
+
+  body {
+    background: var(--secondary);
   }
 }

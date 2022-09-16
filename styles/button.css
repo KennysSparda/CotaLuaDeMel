@@ -15,7 +15,6 @@
   background: var(--secondary);
   box-shadow: 0 0 10px var(--shadow);
 }
-
 .pix-button-expanded {
   color: var(--primary);
   background-image: linear-gradient(to bottom right, var(--primary), var(--secondary), var(--primary));
