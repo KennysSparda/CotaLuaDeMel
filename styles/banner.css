@@ -1,18 +1,14 @@
 #banner {
   background: url('../public/image/banner.jpg') no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 43% 0;
   position: relative;
-  margin-top: 0px;
-  margin: 0px auto;
-  padding: 0px;
   height: 400px;
-  width: 100%;
+  box-shadow: 0 0 10px var(--shadow);
 }
 
 @media screen and (max-width: 800px) {
   #banner {
     height: 300px;
-    width: 100%;
   }
 }

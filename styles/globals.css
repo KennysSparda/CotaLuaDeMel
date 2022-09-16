@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Courgette&display=swap');
 :root {
-  --primary: #51708c;
+  --primary: #4169e1;
   --secondary: #ffffff;
   --back: #aaaaaa;
-  --shadow: #000000;
+  --shadow: #4169e1;
 }
 
 h1 {

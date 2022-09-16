@@ -7,3 +7,9 @@ body {
   margin: 0px auto;
   max-width:800px;
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    background: var(--secondary);
+  }
+}
