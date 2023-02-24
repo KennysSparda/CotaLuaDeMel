@@ -1,6 +1,6 @@
 .pix-button {
-  color: var(--primary);
-  background-image:  url(https://media.istockphoto.com/id/1287121458/photo/background-navy-blue-black-grunge-textured-abstract-stucco-concrete-dark-wall-minimalism.jpg?b=1&s=170667a&w=0&k=20&c=ExZelueK0OP67tKnMIKzXB3-y8aQgh8x0U7aoBRhBZI=);
+  color: var(--secondary);
+  background-image: url(https://media.istockphoto.com/id/1287121458/photo/background-navy-blue-black-grunge-textured-abstract-stucco-concrete-dark-wall-minimalism.jpg?b=1&s=170667a&w=0&k=20&c=ExZelueK0OP67tKnMIKzXB3-y8aQgh8x0U7aoBRhBZI=);
   font-weight: 700;
   font-size: 18px;
   height: 50px;
