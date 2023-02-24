@@ -1,8 +1,12 @@
-body {
+h1 {
   font-family: 'Courgette', cursive;
-  font-size: 24px;
+  font-size: 46px;
+  color: var(--primary);
+  text-shadow: 0 0 2px var(--shadow);
+}
+body {
   text-align: center;
-  background: var(--back);
+  background-image: url(https://media.istockphoto.com/id/1287121458/photo/background-navy-blue-black-grunge-textured-abstract-stucco-concrete-dark-wall-minimalism.jpg?b=1&s=170667a&w=0&k=20&c=ExZelueK0OP67tKnMIKzXB3-y8aQgh8x0U7aoBRhBZI=);
   color: var(--primary);
   margin: 0px auto;
   max-width:800px;
